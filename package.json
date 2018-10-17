@@ -1,0 +1,28 @@
+{
+  "name": "url-shortener-microservice",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp's URL Shortener Microservice Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shittu1/URL-Shortener-Microservice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shittu1/URL-Shortener-Microservice/issues"
+  },
+  "homepage": "https://github.com/Shittu1/URL-Shortener-Microservice#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.6",
+    "path": "^0.12.7"
+  }
+}
