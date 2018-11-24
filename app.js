@@ -53,7 +53,7 @@ app.post('/api/shorturl/new', (req, res) => {
     }
 });
 //Creates the database entry
-app.get('/:newUrl', (req, res, next) => {
+app.get('/api/shorturl/:newUrl', (req, res, next) => {
     let shorterUrl = req.params.newUrl;
     shortUrl.findOne({ 'shorterUrl': shorterUrl }, (err, data) => {
         if (err) return res.json('Error reading database');
