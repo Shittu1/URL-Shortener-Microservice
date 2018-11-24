@@ -1,12 +1,10 @@
 const mongoose = require('mongoose');
-const Schema = mongoose.Schema;
+const { Schema } = mongoose;
 
-const urlSchema = new Schema({
-    
-  originalUrl: String,
-  shortUrl: String
-
-}, {timestamps: true});
+const urlSchema = new Schema({ 
+    originalUrl: String,
+    shorterUrl: String
+});
 
 const ModelClass = mongoose.model('shortUrl', urlSchema);
 
